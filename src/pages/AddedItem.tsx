@@ -41,7 +41,7 @@ const AddedItem: React.FunctionComponent<IAddedItems> = (props) => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/frame-366@2x.png"
+                    src="frame-366@2x.png"
                   />
                   <div className={styles.choiceChipbActiveParent}>
                     <div className={styles.choiceChipbActive}>
@@ -49,7 +49,7 @@ const AddedItem: React.FunctionComponent<IAddedItems> = (props) => {
                         <img
                           className={styles.maskedicon}
                           alt=""
-                          src="/avatar9.svg"
+                          src="avatar9.svg"
                         />
                       </div>
                       <div className={styles.label8}>
