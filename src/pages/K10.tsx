@@ -2,10 +2,9 @@ import { FunctionComponent } from "react";
 import styles from "./K10.module.css";
 import { MenuItem, TextField } from "@mui/material";
 import AddedItem from "./AddedItem";
-import useMediaQuery from '@mui/material/useMediaQuery';
+import useMediaQuery from "@mui/material/useMediaQuery";
 const K10: FunctionComponent = () => {
-
-  const mobileView = useMediaQuery('(max-width:400px)');
+  const mobileView = useMediaQuery("(max-width:400px)");
 
   return (
     <div className={styles.k10}>
@@ -15,12 +14,12 @@ const K10: FunctionComponent = () => {
             <img
               className={styles.menufilledIcon}
               alt=""
-              src="/menufilled.svg"
+              src="menufilled.svg"
             />
           </div>
         </div>
         <div className={styles.image1Wrapper}>
-          <img className={styles.image1Icon} alt="" src="/image-1@2x.png" />
+          <img className={styles.image1Icon} alt="" src="image-1@2x.png" />
         </div>
         <div className={styles.frameParent}>
           <div className={styles.frameGroup}>
@@ -30,118 +29,90 @@ const K10: FunctionComponent = () => {
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="/icon.svg"
+                    src="icon.svg"
                   />
                   <div className={styles.div}>ホーム</div>
                 </div>
-                <img
-                  className={styles.menufilledIcon}
-                  alt=""
-                  src="/icon1.svg"
-                />
+                <img className={styles.menufilledIcon} alt="" src="icon1.svg" />
               </div>
               <nav className={styles.navigationItem}>
                 <div className={styles.iconParent}>
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="/icon2.svg"
+                    src="icon2.svg"
                   />
                   <div className={styles.div}>登録情報</div>
                 </div>
-                <img
-                  className={styles.menufilledIcon}
-                  alt=""
-                  src="/icon1.svg"
-                />
+                <img className={styles.menufilledIcon} alt="" src="icon1.svg" />
               </nav>
               <nav className={styles.navigationItem}>
                 <div className={styles.iconParent}>
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="/icon3.svg"
+                    src="icon3.svg"
                   />
                   <div className={styles.div}>与件一覧</div>
                 </div>
-                <img
-                  className={styles.menufilledIcon}
-                  alt=""
-                  src="/icon1.svg"
-                />
+                <img className={styles.menufilledIcon} alt="" src="icon1.svg" />
               </nav>
               <nav className={styles.navigationItem}>
                 <div className={styles.iconParent}>
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="/icon4.svg"
+                    src="icon4.svg"
                   />
                   <div className={styles.div}>担当者一覧</div>
                 </div>
-                <img
-                  className={styles.menufilledIcon}
-                  alt=""
-                  src="/icon1.svg"
-                />
+                <img className={styles.menufilledIcon} alt="" src="icon1.svg" />
               </nav>
               <nav className={styles.navigationItem3}>
                 <div className={styles.iconParent}>
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="/icon5.svg"
+                    src="icon5.svg"
                   />
                   <div className={styles.div}>商談管理</div>
                 </div>
-                <img
-                  className={styles.menufilledIcon}
-                  alt=""
-                  src="/icon1.svg"
-                />
+                <img className={styles.menufilledIcon} alt="" src="icon1.svg" />
               </nav>
               <div className={styles.navigationItem4}>
                 <div className={styles.rectangle} />
-                <img className={styles.icon10} alt="" src="/icon1.svg" />
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+                <img className={styles.icon10} alt="" src="icon1.svg" />
+                <img className={styles.vectorIcon} alt="" src="vector.svg" />
                 <b className={styles.b}>メディア一覧</b>
-                <img className={styles.vectorIcon} alt="" src="/icon6.svg" />
+                <img className={styles.vectorIcon} alt="" src="icon6.svg" />
               </div>
               <nav className={styles.navigationItem3}>
                 <div className={styles.iconParent}>
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="/icon7.svg"
+                    src="icon7.svg"
                   />
                   <div className={styles.div}>お気に入りメディア</div>
                 </div>
-                <img
-                  className={styles.menufilledIcon}
-                  alt=""
-                  src="/icon1.svg"
-                />
+                <img className={styles.menufilledIcon} alt="" src="icon1.svg" />
               </nav>
               <div className={styles.navigationItem6}>
                 <div className={styles.iconParent}>
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="/icon8.svg"
+                    src="icon8.svg"
                   />
                   <div className={styles.div}>お知らせ</div>
                 </div>
-                <img
-                  className={styles.menufilledIcon}
-                  alt=""
-                  src="/icon1.svg"
-                />
+                <img className={styles.menufilledIcon} alt="" src="icon1.svg" />
               </div>
             </div>
             <div className={styles.navigationItem7}>
-              <img className={styles.menufilledIcon} alt="" src="/icon9.svg" />
+              <img className={styles.menufilledIcon} alt="" src="icon9.svg" />
               <div className={styles.div7}>ログアウト</div>
-              <img className={styles.icon17} alt="" src="/icon1.svg" />
+              <img className={styles.icon17} alt="" src="icon1.svg" />
             </div>
           </div>
           <div className={styles.parent}>
@@ -153,7 +124,7 @@ const K10: FunctionComponent = () => {
                   <img
                     className={styles.image1Icon1}
                     alt=""
-                    src="/image-11@2x.png"
+                    src="image-11@2x.png"
                   />
                 </div>
               </div>
@@ -180,7 +151,7 @@ const K10: FunctionComponent = () => {
                         <img
                           className={styles.maskedicon}
                           alt=""
-                          src="/maskedicon.svg"
+                          src="maskedicon.svg"
                         />
                         <div className={styles.button}>ターゲットを選ぶ</div>
                       </div>
@@ -199,7 +170,7 @@ const K10: FunctionComponent = () => {
                         <img
                           className={styles.maskedicon}
                           alt=""
-                          src="/maskedicon.svg"
+                          src="maskedicon.svg"
                         />
                         <div className={styles.button}>メディア種別を選ぶ</div>
                       </div>
@@ -212,94 +183,112 @@ const K10: FunctionComponent = () => {
                   <b className={styles.b3}>対応ファネル</b>
                 </div>
                 <div className={styles.chips1InputbTextOnlyAParent}>
-                  <button type="button" className={styles.chips1InputbTextOnlyA}>
+                  <button
+                    type="button"
+                    className={styles.chips1InputbTextOnlyA}
+                  >
                     <div className={styles.avatar}>
                       <img
                         className={styles.maskedicon}
                         alt=""
-                        src="/avatar.svg"
+                        src="avatar.svg"
                       />
                     </div>
                     <label className={styles.label}>
                       <div className={styles.label1}>認知</div>
                     </label>
                     <div className={styles.icon18}>
-                      <img className={styles.icon19} alt="" src="/-icon.svg" />
+                      <img className={styles.icon19} alt="" src="-icon.svg" />
                     </div>
                   </button>
-                  <button type="button" className={styles.chips1InputbTextOnlyA}>
+                  <button
+                    type="button"
+                    className={styles.chips1InputbTextOnlyA}
+                  >
                     <div className={styles.avatar}>
                       <img
                         className={styles.maskedicon}
                         alt=""
-                        src="/avatar1.svg"
+                        src="avatar1.svg"
                       />
                     </div>
                     <label className={styles.label}>
                       <div className={styles.label1}>興味</div>
                     </label>
                     <div className={styles.icon18}>
-                      <img className={styles.icon19} alt="" src="/-icon.svg" />
+                      <img className={styles.icon19} alt="" src="-icon.svg" />
                     </div>
                   </button>
-                  <button type="button" className={styles.chips1InputbTextOnlyA}>
+                  <button
+                    type="button"
+                    className={styles.chips1InputbTextOnlyA}
+                  >
                     <div className={styles.avatar}>
                       <img
                         className={styles.maskedicon}
                         alt=""
-                        src="/avatar2.svg"
+                        src="avatar2.svg"
                       />
                     </div>
                     <label className={styles.label}>
                       <div className={styles.label1}>理解</div>
                     </label>
                     <div className={styles.icon18}>
-                      <img className={styles.icon19} alt="" src="/-icon.svg" />
+                      <img className={styles.icon19} alt="" src="-icon.svg" />
                     </div>
                   </button>
-                  <button type="button" className={styles.chips1InputbTextOnlyA}>
+                  <button
+                    type="button"
+                    className={styles.chips1InputbTextOnlyA}
+                  >
                     <div className={styles.avatar}>
                       <img
                         className={styles.maskedicon}
                         alt=""
-                        src="/avatar3.svg"
+                        src="avatar3.svg"
                       />
                     </div>
                     <label className={styles.label}>
                       <div className={styles.label1}>購買 / 来店促進</div>
                     </label>
                     <div className={styles.icon18}>
-                      <img className={styles.icon19} alt="" src="/-icon.svg" />
+                      <img className={styles.icon19} alt="" src="-icon.svg" />
                     </div>
                   </button>
-                  <button type="button" className={styles.chips1InputbTextOnlyA}>
+                  <button
+                    type="button"
+                    className={styles.chips1InputbTextOnlyA}
+                  >
                     <div className={styles.avatar}>
                       <img
                         className={styles.maskedicon}
                         alt=""
-                        src="/avatar4.svg"
+                        src="avatar4.svg"
                       />
                     </div>
                     <div className={styles.label8}>
                       <div className={styles.label1}>リピート</div>
                     </div>
                     <div className={styles.icon18}>
-                      <img className={styles.icon19} alt="" src="/-icon.svg" />
+                      <img className={styles.icon19} alt="" src="-icon.svg" />
                     </div>
                   </button>
-                  <button type="button" className={styles.chips1InputbTextOnlyA}>
+                  <button
+                    type="button"
+                    className={styles.chips1InputbTextOnlyA}
+                  >
                     <div className={styles.avatar}>
                       <img
                         className={styles.maskedicon}
                         alt=""
-                        src="/avatar5.svg"
+                        src="avatar5.svg"
                       />
                     </div>
                     <label className={styles.label}>
                       <div className={styles.label1}>推奨</div>
                     </label>
                     <div className={styles.icon18}>
-                      <img className={styles.icon19} alt="" src="/-icon.svg" />
+                      <img className={styles.icon19} alt="" src="-icon.svg" />
                     </div>
                   </button>
                 </div>
@@ -315,7 +304,7 @@ const K10: FunctionComponent = () => {
                         <img
                           className={styles.maskedicon}
                           alt=""
-                          src="/maskedicon.svg"
+                          src="maskedicon.svg"
                         />
                         <div className={styles.button}>ターゲットを選ぶ</div>
                       </div>
@@ -328,49 +317,58 @@ const K10: FunctionComponent = () => {
                   <b className={styles.b3}>ターゲット種別</b>
                 </div>
                 <div className={styles.chips1InputbTextOnlyAParent}>
-                  <button type="button" className={styles.chips1InputbTextOnlyA}>
+                  <button
+                    type="button"
+                    className={styles.chips1InputbTextOnlyA}
+                  >
                     <div className={styles.avatar}>
                       <img
                         className={styles.maskedicon}
                         alt=""
-                        src="/avatar6.svg"
+                        src="avatar6.svg"
                       />
                     </div>
                     <div className={styles.label8}>
                       <div className={styles.label1}>toC</div>
                     </div>
                     <div className={styles.icon18}>
-                      <img className={styles.icon19} alt="" src="/-icon.svg" />
+                      <img className={styles.icon19} alt="" src="-icon.svg" />
                     </div>
                   </button>
-                  <button  type="button" className={styles.chips1InputbTextOnlyA}>
+                  <button
+                    type="button"
+                    className={styles.chips1InputbTextOnlyA}
+                  >
                     <div className={styles.avatar}>
                       <img
                         className={styles.maskedicon}
                         alt=""
-                        src="/avatar7.svg"
+                        src="avatar7.svg"
                       />
                     </div>
                     <div className={styles.label8}>
                       <div className={styles.label1}>toB</div>
                     </div>
                     <div className={styles.icon18}>
-                      <img className={styles.icon19} alt="" src="/-icon.svg" />
+                      <img className={styles.icon19} alt="" src="-icon.svg" />
                     </div>
                   </button>
-                  <button type="button" className={styles.chips1InputbTextOnlyA}>
+                  <button
+                    type="button"
+                    className={styles.chips1InputbTextOnlyA}
+                  >
                     <div className={styles.avatar}>
                       <img
                         className={styles.maskedicon}
                         alt=""
-                        src="/avatar8.svg"
+                        src="avatar8.svg"
                       />
                     </div>
                     <label className={styles.label}>
                       <div className={styles.label1}>両方</div>
                     </label>
                     <div className={styles.icon18}>
-                      <img className={styles.icon19} alt="" src="/-icon.svg" />
+                      <img className={styles.icon19} alt="" src="-icon.svg" />
                     </div>
                   </button>
                 </div>
@@ -386,7 +384,7 @@ const K10: FunctionComponent = () => {
                         <img
                           className={styles.maskedicon}
                           alt=""
-                          src="/maskedicon.svg"
+                          src="maskedicon.svg"
                         />
                         <div className={styles.button}>デモグラを選ぶ</div>
                       </div>
@@ -405,7 +403,7 @@ const K10: FunctionComponent = () => {
                         <img
                           className={styles.maskedicon}
                           alt=""
-                          src="/maskedicon.svg"
+                          src="maskedicon.svg"
                         />
                         <div className={styles.button}>
                           主要広告主の業種/商材を選ぶ
@@ -420,7 +418,15 @@ const K10: FunctionComponent = () => {
                   <b className={styles.b3}>下限費用感</b>
                 </div>
                 <div className={styles.frameWrapper}>
-                  <TextField size="small" select id="outlined-basic" fullWidth label="選択してください" variant="outlined" className={styles.textFieldoutlinedParent}>
+                  <TextField
+                    size="small"
+                    select
+                    id="outlined-basic"
+                    fullWidth
+                    label="選択してください"
+                    variant="outlined"
+                    className={styles.textFieldoutlinedParent}
+                  >
                     {/* <div className={styles.textFieldoutlined}>
                       <div className={styles.input}>
                         <div className={styles.container1}>
@@ -428,14 +434,12 @@ const K10: FunctionComponent = () => {
                         </div>
                       </div>
                     </div> */}
-                     <MenuItem value="">
-              Value
-            </MenuItem>
+                    <MenuItem value="">Value</MenuItem>
                     {/* <div className={styles.arrowdropdownfilled}>
                       <img
                         className={styles.vectorIcon1}
                         alt=""
-                        src="/vector1.svg"
+                        src="vector1.svg"
                       />
                     </div> */}
                   </TextField>
@@ -446,10 +450,14 @@ const K10: FunctionComponent = () => {
                   <b className={styles.b3}>フリーワード</b>
                 </div>
                 <div className={styles.frameWrapper}>
-                 
-                <TextField size="small"  id="outlined-basic" fullWidth label="選択してください" variant="outlined" className={styles.textFieldoutlinedParent}></TextField>
-                 
-                 
+                  <TextField
+                    size="small"
+                    id="outlined-basic"
+                    fullWidth
+                    label="選択してください"
+                    variant="outlined"
+                    className={styles.textFieldoutlinedParent}
+                  ></TextField>
                 </div>
               </div>
             </div>
@@ -468,7 +476,7 @@ const K10: FunctionComponent = () => {
           </form>
           <div className={styles.group}>
             <div className={styles.div9}>絞り込み検索</div>
-            <img className={styles.menufilledIcon} alt="" src="/icon10.svg" />
+            <img className={styles.menufilledIcon} alt="" src="icon10.svg" />
           </div>
           <button className={styles.buttonoutlined7}>
             <div className={styles.unstyledbutton5}>
@@ -477,15 +485,50 @@ const K10: FunctionComponent = () => {
                 <img
                   className={styles.maskedicon}
                   alt=""
-                  src="/masked-icon.svg"
+                  src="masked-icon.svg"
                 />
               </button>
             </div>
           </button>
-          <div className={styles.frameParent13}>         
-           {!mobileView&& <AddedItem additionalFields={{"シーズン限定メニュー":"  直前割引情報があります！"}} imageDetails={{"imageUrl":"/image@2x.png","title":"公開日","date":new Date(2022,11,20),"desc":"   記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル"}}/>}
-          {mobileView && <AddedItem top3={["1.食品・飲料 00%","2.家庭用品・トイレタリー 00%"," 3.化粧品 00%"]  } additionalFields={{"シーズン限定メニュー":"  直前割引情報があります！"}} imageDetails={{"imageUrl":"/image@2x.png","title":"公開日","date":new Date(2022,11,20),"desc":"   記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル"}}   />}
-            <AddedItem top3={["1.食品・飲料 00%","2.家庭用品・トイレタリー 00%"," 3.化粧品 00%"]  }/>
+          <div className={styles.frameParent13}>
+            {!mobileView && (
+              <AddedItem
+                additionalFields={{
+                  シーズン限定メニュー: "  直前割引情報があります！",
+                }}
+                imageDetails={{
+                  imageUrl: "/image@2x.png",
+                  title: "公開日",
+                  date: new Date(2022, 11, 20),
+                  desc: "   記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル",
+                }}
+              />
+            )}
+            {mobileView && (
+              <AddedItem
+                top3={[
+                  "1.食品・飲料 00%",
+                  "2.家庭用品・トイレタリー 00%",
+                  " 3.化粧品 00%",
+                ]}
+                additionalFields={{
+                  シーズン限定メニュー: "  直前割引情報があります！",
+                }}
+                imageDetails={{
+                  imageUrl: "/image@2x.png",
+                  title: "公開日",
+                  date: new Date(2022, 11, 20),
+                  desc: "   記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル",
+                }}
+              />
+            )}
+            <AddedItem
+              top3={[
+                "1.食品・飲料 00%",
+                "2.家庭用品・トイレタリー 00%",
+                " 3.化粧品 00%",
+              ]}
+            />
           </div>
         </div>
       </div>

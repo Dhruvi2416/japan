@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.aeb55b2b.css",
-    "main.js": "/static/js/main.0a5aa2eb.js",
-    "static/js/787.2d643369.chunk.js": "/static/js/787.2d643369.chunk.js",
-    "index.html": "/index.html",
-    "main.aeb55b2b.css.map": "/static/css/main.aeb55b2b.css.map",
-    "main.0a5aa2eb.js.map": "/static/js/main.0a5aa2eb.js.map",
-    "787.2d643369.chunk.js.map": "/static/js/787.2d643369.chunk.js.map"
+    "main.css": "/japanMarketLLC/static/css/main.aeb55b2b.css",
+    "main.js": "/japanMarketLLC/static/js/main.3adb9f5f.js",
+    "static/js/787.2d643369.chunk.js": "/japanMarketLLC/static/js/787.2d643369.chunk.js",
+    "index.html": "/japanMarketLLC/index.html",
+    "main.aeb55b2b.css.map": "/japanMarketLLC/static/css/main.aeb55b2b.css.map",
+    "main.3adb9f5f.js.map": "/japanMarketLLC/static/js/main.3adb9f5f.js.map",
+    "787.2d643369.chunk.js.map": "/japanMarketLLC/static/js/787.2d643369.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aeb55b2b.css",
-    "static/js/main.0a5aa2eb.js"
+    "static/js/main.3adb9f5f.js"
   ]
 }
