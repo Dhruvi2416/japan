@@ -273,9 +273,11 @@
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-5xl);
+  padding: var(--padding-xs);
+  /* padding-right: 0; */
   align-items: center;
   justify-content: flex-start;
+  font-size: var(--font-size-lg);
 }
 .b2 {
   flex: 1;
@@ -628,6 +630,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .buttonoutlined5 {
   cursor: pointer;
   border: 1px solid var(--darkgray);
@@ -657,9 +660,13 @@
   display: flex;
   align-items: center;
 }
+
+.frame1 :hover {
+  background-color: white;
+}
 .buttonoutlined6 {
   cursor: pointer;
-  border: 1px solid var(--blue);
+  border: 2px solid var(--blue);
   padding: 0;
   background-color: var(--blue);
   border-radius: var(--br-9xs);
@@ -669,6 +676,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .frame1 {
   flex-direction: row;
   justify-content: flex-start;
@@ -705,6 +713,7 @@
   justify-content: flex-start;
   gap: var(--gap-5xl);
 }
+
 .buttonoutlined7,
 .content5 {
   cursor: pointer;
@@ -727,6 +736,10 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
+}
+.buttonoutlined7 :hover {
+  background-color: var(--color-whitesmoke-100);
+  border-radius: 0;
 }
 .maskedIcon1 {
   position: relative;
@@ -751,6 +764,7 @@
 .frameChild {
   align-self: stretch;
   overflow: hidden;
+
   flex-shrink: 0;
 }
 .frame2 {
@@ -766,8 +780,10 @@
 .frameChild {
   border-radius: var(--br-9xs);
   max-width: 100%;
-  height: 140px;
-  object-fit: cover;
+  height: auto;
+  /* object-fit: cover; */
+  flex-shrink: 1;
+  flex-basis: 50%;
 }
 .div10 {
   position: relative;
@@ -777,8 +793,8 @@
 }
 .frameItem {
   position: relative;
-  background-color: var(--color-blueviolet);
-  width: 111.87px;
+  background-color:  var(--color-blueviolet);
+  width: 135.04px;
   height: 8px;
 }
 .rectangleWrapper {
@@ -824,17 +840,25 @@
   gap: var(--gap-3xs);
 }
 .frameChild1,
-.frameChild2 {
+.frameChild2,.frameChild51{
   position: relative;
   background-color: var(--color-midnightblue);
-  width: 111.87px;
+  width: 135.04px;
   height: 8px;
+  
 }
 .frameChild2 {
-  background-color: var(--color-royalblue-200);
-  width: 82.65px;
-  margin-left: -108px;
+  background-color:  var(--color-royalblue-200);
+  width: 51.09px;
+  
 }
+.frameChild51{
+  background-color: var(--color-royalblue-100);
+  width:217.76px;
+  margin-right: 91.24px;
+  /* z-index: -1; */
+}
+
 .frameParent22 {
   align-self: stretch;
   background-color: var(--color-lightgray);
@@ -867,8 +891,8 @@
   width: 10px;
   height: 10px;
 }
-.frameChild5,
-.frameChild6 {
+.frameChild5
+ {
   background-color: var(--color-royalblue-100);
 }
 .frameChild6 {
@@ -899,6 +923,11 @@
 .frameParent18,
 .frameParent19 {
   flex-direction: column;
+}
+
+.changeFlex {
+  display: flex;
+  gap: var(--gap-xs);
 }
 .frameParent19 {
   align-self: stretch;
@@ -969,7 +998,7 @@
 }
 .parent1 {
   align-self: stretch;
-  border-top: 1px solid var(--lightgray);
+  /* border-top: 1px solid var(--lightgray); */
   border-bottom: 1px solid var(--lightgray);
   padding: var(--padding-xs);
   gap: var(--gap-21xl);
@@ -1168,10 +1197,17 @@
   line-height: 20px;
 }
 .title1 {
-  font-size: var(--material-theme-title-medium-size);
+  font-size: var(--material-theme-body-small-size);
   letter-spacing: 0.15px;
   line-height: 140%;
   color: var(--black);
+  /* width: 678px; */
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 .frame4,
 .frameParent16,
@@ -1184,7 +1220,8 @@
   flex: 1;
   overflow: hidden;
   flex-direction: column;
-  gap: var(--gap-5xs);
+
+  font-size: var(--material-theme-body-small-size);
 }
 .frameParent16,
 .imageParent {
@@ -1233,6 +1270,9 @@
   width: 200px;
   flex-shrink: 0;
   flex-direction: column;
+}
+.unstyledbuttonParent :hover {
+  background-color: white;
 }
 .unstyledbuttonParent {
   width: 394px;
@@ -1379,7 +1419,8 @@
     gap: 0;
     align-items: center;
     justify-content: center;
-    padding: var(--padding-5xl) var(--padding-5xs);
+    padding: var(--padding-2xs);
+
     box-sizing: border-box;
   }
   .frameParent {
@@ -1555,7 +1596,7 @@
     width: auto;
   }
   .frameParent15 {
-    padding: var(--padding-base) var(--padding-base) var(--padding-5xl);
+    padding: var(--padding-base);
     box-sizing: border-box;
     flex: unset;
     align-self: stretch;
