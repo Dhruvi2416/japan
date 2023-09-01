@@ -497,7 +497,7 @@ const K10: FunctionComponent = () => {
                   シーズン限定メニュー: "  直前割引情報があります！",
                 }}
                 imageDetails={{
-                  imageUrl: "/image@2x.png",
+                  imageUrl: "image@2x.png",
                   title: "公開日",
                   date: new Date(2022, 11, 20),
                   desc: "   記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル",
@@ -515,7 +515,7 @@ const K10: FunctionComponent = () => {
                   シーズン限定メニュー: "  直前割引情報があります！",
                 }}
                 imageDetails={{
-                  imageUrl: "/image@2x.png",
+                  imageUrl: "image@2x.png",
                   title: "公開日",
                   date: new Date(2022, 11, 20),
                   desc: "   記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル",
