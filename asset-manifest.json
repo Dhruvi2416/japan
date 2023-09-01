@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/japanMarketLLC/static/css/main.aeb55b2b.css",
-    "main.js": "/japanMarketLLC/static/js/main.c095fc9a.js",
+    "main.js": "/japanMarketLLC/static/js/main.c744bd4a.js",
     "static/js/787.2d643369.chunk.js": "/japanMarketLLC/static/js/787.2d643369.chunk.js",
     "index.html": "/japanMarketLLC/index.html",
     "main.aeb55b2b.css.map": "/japanMarketLLC/static/css/main.aeb55b2b.css.map",
-    "main.c095fc9a.js.map": "/japanMarketLLC/static/js/main.c095fc9a.js.map",
+    "main.c744bd4a.js.map": "/japanMarketLLC/static/js/main.c744bd4a.js.map",
     "787.2d643369.chunk.js.map": "/japanMarketLLC/static/js/787.2d643369.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aeb55b2b.css",
-    "static/js/main.c095fc9a.js"
+    "static/js/main.c744bd4a.js"
   ]
 }
